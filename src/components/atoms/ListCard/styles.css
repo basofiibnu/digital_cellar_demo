@@ -1,0 +1,60 @@
+:root {
+  --cards: 4;
+  --cardHeight: 616px;
+  --cardTopPadding: 1.5em;
+  --cardMargin: 4vw;
+}
+#cards {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(var(--cards), var(--cardHeight));
+  gap: var(--cardMargin);
+  padding-bottom: calc(var(--cards) * var(--cardTopPadding));
+  margin-bottom: var(--cardMargin);
+}
+
+#card1 {
+  --index: 1;
+}
+#card2 {
+  --index: 2;
+}
+#card3 {
+  --index: 3;
+}
+#card4 {
+  --index: 4;
+}
+
+.thumbnail-section {
+  position: sticky;
+  top: 70px;
+}
+
+.card {
+  position: sticky;
+  top: 200px;
+  padding-top: calc(var(--index) * var(--cardTopPadding));
+}
+
+#card1 .card-body {
+  background-color: #bed2f5;
+}
+#card2 .card-body {
+  background-color: #dcb688;
+}
+#card3 .card-body {
+  background-color: #d9db4d;
+}
+#card4 .card-body {
+  background-color: #bfb9e3;
+}
+
+.card-body {
+  box-sizing: border-box;
+  border-radius: 50px;
+  height: var(--cardHeight);
+  transition: all 0.5s ease-in-out;
+}

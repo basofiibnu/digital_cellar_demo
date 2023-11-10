@@ -1,0 +1,18 @@
+.swiper-ArticleCard {
+  height: 100%;
+  min-height: 300px;
+}
+
+.swiper-ArticleCard .swiper-pagination {
+  position: absolute;
+  bottom: 0 !important;
+  width: 100%;
+  text-align: left;
+}
+
+@media screen and (max-width: 640px) {
+  .swiper-ArticleCard .swiper-pagination {
+    bottom: 25px !important;
+    left: 20px;
+  }
+}

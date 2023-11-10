@@ -1,0 +1,44 @@
+.image-container {
+  width: 50%;
+  aspect-ratio: 1/1;
+  margin: -30px auto auto;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+}
+
+@media screen and (max-width: 1920px) {
+  .image-container {
+    width: 65%;
+    margin: -30px auto auto;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .image-container {
+    width: 55%;
+    margin: -42px auto auto;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .image-container {
+    width: 50%;
+    margin: -52px auto auto;
+  }
+}
+@media screen and (max-width: 640px) {
+  .image-container {
+    width: 60%;
+    margin: -20px auto auto;
+  }
+}
+
+.masked-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-card-container:hover .masked-image {
+  transform: scale(1.2);
+}

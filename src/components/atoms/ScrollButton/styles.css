@@ -1,0 +1,11 @@
+.scrollButton-container svg {
+  color: #fff;
+  width: 14px;
+  height: 14px;
+  transition: transform 0.3s ease-in-out;
+  transform: rotate(90deg);
+}
+
+.scrollButton-container:hover svg {
+  transform: rotate(90deg) scale(1.3);
+}

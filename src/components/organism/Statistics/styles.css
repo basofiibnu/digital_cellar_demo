@@ -1,0 +1,22 @@
+.counter-font {
+  font-size: clamp(3.375rem, 3.091rem + 0.91vw, 4rem);
+}
+
+.swiper-statistics .swiper-pagination {
+  position: absolute;
+  bottom: 20px !important;
+  width: 100%;
+  text-align: center;
+}
+
+.swiper-statistics {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 270px;
+}
+
+.swiper-pagination-bullet-active {
+  background: #000;
+}

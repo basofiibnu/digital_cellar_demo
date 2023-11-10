@@ -1,0 +1,10 @@
+.swiper-trivia {
+  height: 100%;
+}
+
+.swiper-trivia .swiper-pagination {
+  position: absolute;
+  bottom: 0 !important;
+  width: 100%;
+  text-align: left;
+}

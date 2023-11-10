@@ -1,0 +1,10 @@
+.button-container svg {
+  color: #fff;
+  width: 14px;
+  height: 14px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.button-container:hover svg {
+  transform: rotate(-45deg) scale(1.3);
+}

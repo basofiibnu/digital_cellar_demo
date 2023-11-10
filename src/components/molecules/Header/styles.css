@@ -1,0 +1,36 @@
+.header-container::before {
+  content: '';
+  display: block;
+  width: 500vw;
+  height: 20px;
+  position: absolute;
+  top: -10px;
+  left: -100vw;
+  background-color: #f9f8f6;
+}
+
+.nav-container {
+  background-color: hsla(0, 0%, 100%, 0.7);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+.search-container {
+  background-color: hsla(0, 0%, 100%, 0.7);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border-radius: 35px;
+}
+.search-icon-container {
+  cursor: pointer;
+  background-color: hsla(40, 20%, 97%, 0.7);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+}
+.search-icon-container svg {
+  width: 50%;
+  display: block;
+}
